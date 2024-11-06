@@ -15,12 +15,12 @@
                 Console.WriteLine(api.GetRonQuote());
             }
 
-            //Console.WriteLine("----------------");
-            //Console.WriteLine("Kanye Quotes");
-            //for (int i = 0; i < 5; i++)
-            //{
-            //    Console.WriteLine(api.GetKanyeQuote());  
-            //}
+            Console.WriteLine("----------------");
+            Console.WriteLine("Kanye Quotes");
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(api.GetKanyeQuote());
+            }
 
             Console.WriteLine("----------------");
             Console.WriteLine("Current weather in Round Rock");

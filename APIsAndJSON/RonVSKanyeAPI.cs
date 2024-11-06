@@ -26,7 +26,7 @@ namespace APIsAndJSON
 
         public string GetKanyeQuote()
         {
-            string kanyeUrl = "https://api.kanye.rest/";
+            string kanyeUrl = "https://api.kanye.rest";
             var kanyeResponse = _client.GetStringAsync(kanyeUrl).Result;
             var kanyeQuote = JObject.Parse(kanyeResponse).GetValue("quote").ToString();
             return kanyeQuote;
